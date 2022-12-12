@@ -13,5 +13,14 @@
         </rule-metadata>
     </rule-group-metadata>
     
+     <rule-group-metadata name="Halstead Checks"  priority="1600">
+        <description>%HalsteadChecks.desc</description>
+        
+        <rule-metadata name="%HalsteadChecks.name" internal-name="HalsteadLengthCheck" parent="TreeWalker">
+            <alternative-name internal-name="HalsteadChecks.HalsteadLengthCheck" />
+            <description>%HalsteadLength.desc</description>
+        </rule-metadata>
+    </rule-group-metadata>
+    
 
 </checkstyle-metadata>
