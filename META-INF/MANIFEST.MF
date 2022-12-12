@@ -5,4 +5,6 @@ Bundle-SymbolicName: metrics;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: metrics
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Require-Bundle: net.sf.eclipsecs.checkstyle
+Require-Bundle: net.sf.eclipsecs.checkstyle,
+ org.junit,
+ org.junit.jupiter.api
